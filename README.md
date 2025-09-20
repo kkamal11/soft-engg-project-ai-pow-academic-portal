@@ -126,13 +126,13 @@ project-root/
 
 └── backend/            # FastAPI backend
 
-&nbsp;   ├── main.py         # Entry point
+         ├── main.py         # Entry point
 
-&nbsp;   ├── services/       # Core services (auth, courses, grading)
+         ├── services/       # Core services (auth, courses, grading)
 
-&nbsp;   ├── uploads/        # Local file storage (dev mode)
+         ├── uploads/        # Local file storage (dev mode)
 
-&nbsp;   └── pdfs/           # Course PDFs for vector store
+         └── pdfs/           # Course PDFs for vector store
 
 ```  
 

@@ -1,10 +1,10 @@
-\# 🎓 AI-Powered Academic Portal  
+# 🎓 AI-Powered Academic Portal  
 
 
 
-An academic platform built as part of a \*\*Software Engineering Project (Team 26)\*\*.  
+An academic platform built as part of a **Software Engineering Project (Team 26)**.  
 
-This system provides an end-to-end solution for students, faculty, and administrators, integrating \*\*AI features\*\*, \*\*learning management tools\*\*, and \*\*performance analytics\*\*.  
+This system provides an end-to-end solution for students, faculty, and administrators, integrating **AI features**, **learning management tools**, and **performance analytics**.  
 
 
 
@@ -12,7 +12,7 @@ This system provides an end-to-end solution for students, faculty, and administr
 
 
 
-\## 🚀 Overview  
+## 🚀 Overview  
 
 
 
@@ -20,49 +20,9 @@ The project is divided into two major components:
 
 
 
-\- \*\*Frontend\*\* → A modern web client built with Vue.js 3, Tailwind CSS, and Pinia for state management.  
+- **Frontend** → A modern web client built with Vue.js 3, Tailwind CSS, and Pinia for state management.  
 
-\- \*\*Backend API\*\* → A FastAPI-based backend with PostgreSQL, JWT authentication, file storage, plagiarism detection, and vector store retrieval for AI-driven features.  
-
-
-
----
-
-
-
-\## ✨ Key Features  
-
-
-
-\### Frontend  
-
-\- 🎓 Course Management \& Enrollment  
-
-\- 📊 Analytics Dashboard  
-
-\- 👥 User Management System  
-
-\- 🎥 Video Lecture Platform  
-
-\- 📚 Content \& FAQ Management  
-
-\- 🔐 Role-based Access Control  
-
-
-
-\### Backend  
-
-\- 🔑 JWT Authentication + Google OAuth  
-
-\- 📂 File Uploads (Local \& S3-compatible storage)  
-
-\- 📝 Assignment \& Grading System  
-
-\- 🔍 Plagiarism Detection  
-
-\- 📖 Vector Store for Course Material Retrieval (AI-powered Q\&A)  
-
-\- 🛠 Monitoring \& Health Checks  
+- **Backend API** → A FastAPI-based backend with PostgreSQL, JWT authentication, file storage, plagiarism detection, and vector store retrieval for AI-driven features.  
 
 
 
@@ -70,41 +30,39 @@ The project is divided into two major components:
 
 
 
-\## 🛠️ Technology Stack  
+## ✨ Key Features  
 
 
 
-\### Frontend  
+### Frontend  
 
-\- \*\*Framework:\*\* Vue.js 3 (Composition API)  
+- 🎓 Course Management & Enrollment  
 
-\- \*\*State Management:\*\* Pinia  
+- 📊 Analytics Dashboard  
 
-\- \*\*Styling:\*\* Tailwind CSS  
+- 👥 User Management System  
 
-\- \*\*Routing:\*\* Vue Router  
+- 🎥 Video Lecture Platform  
 
-\- \*\*Build Tool:\*\* Vite  
+- 📚 Content & FAQ Management  
 
-\- \*\*Code Quality:\*\* ESLint  
-
-\- \*\*Package Manager:\*\* npm  
+- 🔐 Role-based Access Control  
 
 
 
-\### Backend  
+### Backend  
 
-\- \*\*Framework:\*\* FastAPI (Python 3.9+)  
+- 🔑 JWT Authentication + Google OAuth  
 
-\- \*\*Database:\*\* PostgreSQL (with `pgvector` extension)  
+- 📂 File Uploads (Local & S3-compatible storage)  
 
-\- \*\*Storage:\*\* Local \& S3-compatible (Cloudflare R2, AWS S3)  
+- 📝 Assignment & Grading System  
 
-\- \*\*Authentication:\*\* JWT + Google OAuth  
+- 🔍 Plagiarism Detection  
 
-\- \*\*Caching/Optional:\*\* Redis  
+- 📖 Vector Store for Course Material Retrieval (AI-powered Q&A)  
 
-\- \*\*LLM/AI:\*\* Google `text-embedding-004`, LangChain PGVector  
+- 🛠 Monitoring & Health Checks  
 
 
 
@@ -112,7 +70,49 @@ The project is divided into two major components:
 
 
 
-\## 📦 Project Structure  
+## 🛠️ Technology Stack  
+
+
+
+### Frontend  
+
+- **Framework:** Vue.js 3 (Composition API)  
+
+- **State Management:** Pinia  
+
+- **Styling:** Tailwind CSS  
+
+- **Routing:** Vue Router  
+
+- **Build Tool:** Vite  
+
+- **Code Quality:** ESLint  
+
+- **Package Manager:** npm  
+
+
+
+### Backend  
+
+- **Framework:** FastAPI (Python 3.9+)  
+
+- **Database:** PostgreSQL (with `pgvector` extension)  
+
+- **Storage:** Local & S3-compatible (Cloudflare R2, AWS S3)  
+
+- **Authentication:** JWT + Google OAuth  
+
+- **Caching/Optional:** Redis  
+
+- **LLM/AI:** Google `text-embedding-004`, LangChain PGVector  
+
+
+
+---
+
+
+
+## 📦 Project Structure  
 
 
 
@@ -142,19 +142,19 @@ project-root/
 
 
 
-\## ⚡ Setup \& Installation  
+## ⚡ Setup & Installation  
 
 
 
-\### Prerequisites  
+### Prerequisites  
 
-\- Node.js v16+ \& npm v7+  
+- Node.js v16+ & npm v7+  
 
-\- Python 3.9+  
+- Python 3.9+  
 
-\- PostgreSQL  
+- PostgreSQL  
 
-\- Git  
+- Git  
 
 
 
@@ -162,33 +162,33 @@ project-root/
 
 
 
-\### 🔹 Frontend Setup  
+### 🔹 Frontend Setup  
 
 
 
 ```bash
 
-\# Clone repo and go to frontend
+# Clone repo and go to frontend
 
-git clone \[repository-url]
+git clone [repository-url]
 
 cd project-root/frontend
 
 
 
-\# Install dependencies
+# Install dependencies
 
 npm install
 
 
 
-\# Set up environment
+# Set up environment
 
 cp .env.example .env
 
 
 
-\# Start dev server
+# Start dev server
 
 npm run dev
 
@@ -196,7 +196,7 @@ npm run dev
 
 
 
-The app runs at \*\*http://localhost:5173\*\*  
+The app runs at **http://localhost:5173**  
 
 
 
@@ -204,31 +204,31 @@ The app runs at \*\*http://localhost:5173\*\*
 
 
 
-\### 🔹 Backend Setup  
+### 🔹 Backend Setup  
 
 
 
 ```bash
 
-\# Go to backend
+# Go to backend
 
 cd project-root/backend
 
 
 
-\# Install dependencies
+# Install dependencies
 
 pip install -r requirements.txt
 
 
 
-\# Setup environment
+# Setup environment
 
 cp .env.example .env   # update with DB, JWT, S3 credentials
 
 
 
-\# Run backend server
+# Run backend server
 
 uvicorn main:app --reload
 
@@ -236,11 +236,11 @@ uvicorn main:app --reload
 
 
 
-Backend runs at \*\*http://localhost:8000\*\*  
+Backend runs at **http://localhost:8000**  
 
-\- Swagger Docs → `http://localhost:8000/docs`  
+- Swagger Docs → `http://localhost:8000/docs`  
 
-\- ReDoc → `http://localhost:8000/redoc`  
+- ReDoc → `http://localhost:8000/redoc`  
 
 
 
@@ -248,11 +248,11 @@ Backend runs at \*\*http://localhost:8000\*\*
 
 
 
-\## 🧪 Testing  
+## 🧪 Testing  
 
 
 
-\### Frontend  
+### Frontend  
 
 ```bash
 
@@ -264,7 +264,7 @@ npm run test:e2e      # End-to-end tests
 
 
 
-\### Backend  
+### Backend  
 
 ```bash
 
@@ -278,47 +278,25 @@ pytest
 
 
 
-\## 🚀 Deployment  
+## 🚀 Deployment  
 
 
 
-\### Frontend  
+### Frontend  
 
-\- Netlify, Vercel, or static web server (Nginx/Apache).  
+- Netlify, Vercel, or static web server (Nginx/Apache).  
 
-\- Run `npm run build` → deploy `dist/` folder.  
-
-
-
-\### Backend  
-
-\- Local / Docker / Vercel serverless functions.  
-
-\- Ensure S3 storage is configured for file uploads.  
-
-\- Example: Vercel deployment uses `backend/` as root with optimized build script.  
+- Run `npm run build` → deploy `dist/` folder.  
 
 
 
----
+### Backend  
 
+- Local / Docker / Vercel serverless functions.  
 
+- Ensure S3 storage is configured for file uploads.  
 
-\## 📖 Coding Standards  
-
-
-
-\- Vue 3 \*\*Composition API\*\* with `<script setup>`  
-
-\- Pinia for state management  
-
-\- TypeScript where possible  
-
-\- ESLint rules enforced  
-
-\- Backend follows \*\*PEP8\*\* \& FastAPI best practices  
-
-\- Secure handling of JWT \& API tokens  
+- Example: Vercel deployment uses `backend/` as root with optimized build script.  
 
 
 
@@ -326,39 +304,21 @@ pytest
 
 
 
-\## 🔒 Security \& Best Practices  
+## 📖 Coding Standards  
 
 
 
-\- Input validation \& sanitization  
+- Vue 3 **Composition API** with `<script setup>`  
 
-\- HTTPS for all API calls  
+- Pinia for state management  
 
-\- Lazy loading \& caching for performance  
+- TypeScript where possible  
 
-\- Proper error handling \& logging  
+- ESLint rules enforced  
 
-\- Role-based access control  
+- Backend follows **PEP8** & FastAPI best practices  
 
-
-
----
-
-
-
-\## 🤝 Contributing  
-
-
-
-1\. Fork \& create a feature branch  
-
-2\. Commit changes with clear messages  
-
-3\. Add/update tests  
-
-4\. Update documentation if needed  
-
-5\. Submit a pull request  
+- Secure handling of JWT & API tokens  
 
 
 
@@ -366,7 +326,47 @@ pytest
 
 
 
-\## 📄 License  
+## 🔒 Security & Best Practices  
+
+
+
+- Input validation & sanitization  
+
+- HTTPS for all API calls  
+
+- Lazy loading & caching for performance  
+
+- Proper error handling & logging  
+
+- Role-based access control  
+
+
+
+---
+
+
+
+## 🤝 Contributing  
+
+
+
+1. Fork & create a feature branch  
+
+2. Commit changes with clear messages  
+
+3. Add/update tests  
+
+4. Update documentation if needed  
+
+5. Submit a pull request  
+
+
+
+---
+
+
+
+## 📄 License  
 
 &nbsp;
 
@@ -376,9 +376,9 @@ pytest
 
 
 
-\*\*Last Updated:\*\* February 2025  
+**Last Updated:** February 2025  
 
-\*\*Version:\*\* 1.0.0  
+**Version:** 1.0.0  
 
 
 

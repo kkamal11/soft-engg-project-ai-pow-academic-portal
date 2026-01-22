@@ -170,7 +170,7 @@ project-root/
 
 # Clone repo and go to frontend
 
-git clone [repository-url]
+git clone [this-repository-url]
 
 cd project-root/frontend
 
@@ -310,9 +310,7 @@ pytest
 
 - Vue 3 **Composition API** with `<script setup>`  
 
-- Pinia for state management  
-
-- TypeScript where possible  
+- Pinia for state management   
 
 - ESLint rules enforced  
 
